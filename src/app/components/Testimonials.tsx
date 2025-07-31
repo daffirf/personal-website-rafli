@@ -6,8 +6,7 @@ const testimonials = [
   {
     name: "Nia Marana",
     role: "CEO, Maraneea Shop",
-    quote:
-      <p>Rafli is the best designer I&apos;ve ever worked with. He&apos;s a real &quot;game-changer&quot;.</p>
+    quote: `Rafli is the best designer I&apos;ve ever worked with. He&apos;s a real &quot;game-changer&quot;.`,
   },
 ];
 
@@ -22,7 +21,7 @@ export default function Testimonials() {
             <CardContent>
               <h3 className="text-xl font-semibold text-center">{item.name}</h3>
               <p className="text-sm text-gray-500 mb-4 text-center">{item.role}</p>
-              <p className="italic text-gray-700 text-center">"{item.quote}"</p>
+              <p className="italic text-gray-700 text-center" dangerouslySetInnerHTML={{ __html: item.quote }} />
             </CardContent>
           </Card>
         ))}
