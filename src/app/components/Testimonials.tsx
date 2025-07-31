@@ -7,7 +7,7 @@ const testimonials = [
     name: "Nia Marana",
     role: "CEO, Maraneea Shop",
     quote:
-      <p>Rafli is a great full stack developer. He knows what to do, tactical, fast, precise, and always delivers under pressure.</p>
+      <p>Rafli is the best designer I've ever worked with. He’s a real “game-changer”.</p>
   },
 ];
 
