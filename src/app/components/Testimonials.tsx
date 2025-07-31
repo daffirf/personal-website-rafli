@@ -7,9 +7,8 @@ const testimonials = [
     name: "Nia Marana",
     role: "CEO, Maraneea Shop",
     quote:
-      "Rafli is a great full stack developer. He knows what to do, tactical, fast, precise, and always delivers under pressure.",
+      <p>Rafli is a great full stack developer. He knows what to do, tactical, fast, precise, and always delivers under pressure.</p>
   },
-  // Tambah testimoni lain di sini
 ];
 
 export default function Testimonials() {
