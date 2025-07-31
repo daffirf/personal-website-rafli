@@ -7,7 +7,7 @@ const testimonials = [
     name: "Nia Marana",
     role: "CEO, Maraneea Shop",
     quote:
-      <p>Rafli is the best designer I've ever worked with. He’s a real “game-changer”.</p>
+      <p>Rafli is the best designer I've ever worked with. He&apos;s a real &quot;game-changer&quot;.</p>
   },
 ];
 
